@@ -22,12 +22,18 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
     font-family: "merriweather-regular", serif;
     color: #ffffff;
     line-height: 1.3;
     font-weight: 500;
+}
+
+h6 {
+    font-family: "Roboto", serif;
+    color: #ffffff;
+    line-height: 1.3;
+    font-weight: 2000;
 }
 
 p {
@@ -50,6 +56,18 @@ a:focus {
     font-weight: 500;
     font-size: 14px;
     font-family: "merriweather-regular", serif;
+}
+
+a.post-author {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: 0 solid transparent;
+    color: #a6a6a6;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -1491,9 +1509,9 @@ input:focus {
     margin-right: 0;
 }
 
-.single-post-area .post-content .post-meta .post-author {
+/* .single-post-area .post-content .post-meta .post-author {
     color: #595959;
-}
+} */
 
 .single-post-area .post-content .post-meta .post-date {
     color: #595959;
