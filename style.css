@@ -1074,11 +1074,12 @@ input:focus {
 }
 
 .single-blog-post .post-content .post-title {
-    color: #ffffff;
+    /* color: #ffffff; */
     margin-bottom: 5px;
     display: block;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1164,13 +1165,13 @@ input:focus {
     margin-bottom: 10px;
     display: block;
     font-weight: 20;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.5;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-blog-post.style-2 .post-content .post-title {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
